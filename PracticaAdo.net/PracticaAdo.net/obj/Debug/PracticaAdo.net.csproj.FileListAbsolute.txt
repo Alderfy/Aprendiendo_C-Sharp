@@ -1,0 +1,6 @@
+C:\Visual Project\PracticaAdo.net\PracticaAdo.net\bin\Debug\PracticaAdo.net.exe.config
+C:\Visual Project\PracticaAdo.net\PracticaAdo.net\bin\Debug\PracticaAdo.net.exe
+C:\Visual Project\PracticaAdo.net\PracticaAdo.net\bin\Debug\PracticaAdo.net.pdb
+C:\Visual Project\PracticaAdo.net\PracticaAdo.net\obj\Debug\PracticaAdo.net.csprojAssemblyReference.cache
+C:\Visual Project\PracticaAdo.net\PracticaAdo.net\obj\Debug\PracticaAdo.net.exe
+C:\Visual Project\PracticaAdo.net\PracticaAdo.net\obj\Debug\PracticaAdo.net.pdb

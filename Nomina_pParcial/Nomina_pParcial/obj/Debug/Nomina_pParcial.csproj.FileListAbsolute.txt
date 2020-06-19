@@ -1,0 +1,7 @@
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\bin\Debug\Nomina_pParcial.exe.config
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\bin\Debug\Nomina_pParcial.exe
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\bin\Debug\Nomina_pParcial.pdb
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.csprojAssemblyReference.cache
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.csproj.CoreCompileInputs.cache
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.exe
+C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.pdb
