@@ -160,7 +160,7 @@ namespace Nomina_pParcial
                                         Printline("-----------------------------------------------------------------------\n");
                                     }
 
-                                    Print("Nueva sueldo bruto: ");
+                                    Print("Nuevo sueldo bruto: ");
                                     double newsueldoBruto = double.Parse(Console.ReadLine());
 
                                     var update = empleadosRepositorio.updateEmpleado(new Empleado() { sueldoBruto = newsueldoBruto, Cedula = cedulaEmpleado}, cedulaEmpleado);
@@ -238,7 +238,6 @@ namespace Nomina_pParcial
                         }break;
                 }
             } while (opcion != "5");
-
         }
     }
 }
