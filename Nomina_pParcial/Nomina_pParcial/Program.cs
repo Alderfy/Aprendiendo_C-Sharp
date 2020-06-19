@@ -18,7 +18,7 @@ namespace Nomina_pParcial
         static iempleadosRepositorio empleadosRepositorio = new empleadoRepositorio();
         public static void Main(string[] args)
         {
-            string opcion = null;
+            string opcion;
             do
             {
                 Console.Clear();
