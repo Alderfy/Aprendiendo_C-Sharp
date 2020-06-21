@@ -109,7 +109,7 @@ namespace Nomina_pParcial
             }
         }
 
-        public OperationResult softDelete(string cadula)
+        public OperationResult softDelete(string cedula)
         {
             using (SqlConnection conn = new SqlConnection(connString))
             {
@@ -122,13 +122,13 @@ namespace Nomina_pParcial
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conn;
                     cmd.Transaction = tran;
-                    cmd.Parameters.AddWithValue("@Cedula", $"{cadula}");
+                    cmd.Parameters.AddWithValue("@Cedula", $"{cedula}");
 
                     try
                     {
                         if (cmd.ExecuteNonQuery() == 0)
                         {
-                            return new OperationResult(false, $"No se encontró empleado con cedula {cadula}.");
+                            return new OperationResult(false, $"No se encontró empleado con cedula {cedula}.");
                         }
                         tran.Commit();
                         return new OperationResult() { Result = true, Message = "Empleado Eliminado Satisfactoriamente" };
@@ -136,6 +136,38 @@ namespace Nomina_pParcial
                     catch (Exception ex)
                     {
                         tran.Rollback();
+                        return new OperationResult(false, $"Ha ocurrido un error. {ex.Message}");
+                    }
+                }
+            }
+        }
+
+        public OperationResult generarNomina()
+        {
+            using (SqlConnection conn = new SqlConnection(connString))
+            {
+                using (SqlCommand cmd = new SqlCommand())
+                {
+                    cmd.CommandText = "generarNomina";
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Connection = conn;
+
+                    DataTable dt = new DataTable();
+                    SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+                    conn.Open();
+
+                    try
+                    {
+                        da.Fill(dt);
+                        if (dt.Rows.Count > 0)
+                        {
+                            return new OperationResult(true, dt);
+                        }
+                        return new OperationResult() { Result = false, Message = "No se encontraron empleados registrados." };
+                    }
+                    catch (Exception ex)
+                    {
                         return new OperationResult(false, $"Ha ocurrido un error. {ex.Message}");
                     }
                 }

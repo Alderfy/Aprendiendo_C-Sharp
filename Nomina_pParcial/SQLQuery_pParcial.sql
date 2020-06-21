@@ -39,4 +39,9 @@ AS
 UPDATE Empleado SET Borrado = 1 WHERE Cedula = @Cedula
 GO
 
+CREATE PROCEDURE generarNomina
+AS
+SELECT Nombre, Apellido, sueldoBruto, (sueldoBruto * 0.0287) AS AFP, (sueldoBruto * 0.0304) AS ARS, ((sueldoBruto * 0.0287) + (sueldoBruto * 0.0304)) AS totalRetenciones, sueldoNeto FROM Empleado WHERE Borrado=0
+GO
+
 select * from Empleado

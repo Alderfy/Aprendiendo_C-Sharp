@@ -5,3 +5,10 @@ C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.cspr
 C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.csproj.CoreCompileInputs.cache
 C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.exe
 C:\Visual Project\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.pdb
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\bin\Debug\Nomina_pParcial.exe.config
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\bin\Debug\Nomina_pParcial.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\bin\Debug\Nomina_pParcial.pdb
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.csprojAssemblyReference.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.csproj.CoreCompileInputs.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_pParcial\Nomina_pParcial\obj\Debug\Nomina_pParcial.pdb

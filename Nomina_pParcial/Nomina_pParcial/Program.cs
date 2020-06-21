@@ -32,7 +32,8 @@ namespace Nomina_pParcial
                 "\n2 - Buscar Empleado por Cedula" +
                 "\n3 - Actualizar Empleado" +
                 "\n4 - Borrar Empleado" +
-                "\n5 - Salir\n");
+                "\n5 - Generar Nomina" +
+                "\n6 - Salir\n");
                 Print("Opcion: ");
                 opcion = Console.ReadLine();
 
@@ -183,7 +184,7 @@ namespace Nomina_pParcial
                                 Printline("****************************Eliminar empleado***************************");
                                 Printline("");
 
-                                Print("Cedula del Empelado a eliminar: ");
+                                Print("Cedula del Empleado a eliminar: ");
                                 string cedulaEmpleado = Console.ReadLine();
 
                                 OperationResult empleado = empleadosRepositorio.findByCedula(cedulaEmpleado);
@@ -225,7 +226,40 @@ namespace Nomina_pParcial
                             }
                         }break;
 
-                    case "5": //Salir
+                    case "5": //Generar todos
+                        {
+                            Console.Clear();
+                            Printline("—————————————————————————————Primer Parcial—————————————————————————————");
+                            Printline("************************Nomina Completa Empleados***********************");
+                            Printline("");
+                            OperationResult empleados = empleadosRepositorio.generarNomina();
+
+                            if (!empleados.Result)
+                            {
+                                Printline(empleados.Message);
+                            }
+                            else
+                            {
+                                DataTable dataEmpleados = (DataTable)empleados.Data;
+
+                                foreach (DataRow emp in dataEmpleados.Rows)
+                                {
+                                    Printline($"" +
+                                         $"Nombre Colaborador  : {emp["Nombre"]} {emp["Apellido"]}\n" +
+                                            $"Sueldo Bruto        : RD{(emp["sueldoBruto"]):C2}\n" +
+                                            $"Retencion AFP       : RD{(emp["AFP"]):C2}\n" +
+                                            $"Retencion ARS       : RD{(emp["ARS"]):C2}\n" +
+                                            $"Total Retenciones   : RD{(emp["totalRetenciones"]):C2}\n" +
+                                            $"Sueldo Neto         : RD{(emp["sueldoNeto"]):C2}");
+
+                                    Printline("-----------------------------------------------------------------------\n");
+                                }
+                            }
+                            Print("Presione <ENTER> para volver al Menú...");
+                            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+                        }break;
+
+                    case "6": //Salir
                         {
                             Print("\nPase feliz resto del día!!!.\nPresione <ENTER> para Salir...");
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
@@ -237,7 +271,7 @@ namespace Nomina_pParcial
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
                         }break;
                 }
-            } while (opcion != "5");
+            } while (opcion != "6");
         }
     }
 }

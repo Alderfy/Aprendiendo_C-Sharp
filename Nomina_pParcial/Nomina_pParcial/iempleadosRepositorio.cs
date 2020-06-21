@@ -8,5 +8,6 @@ namespace Nomina_pParcial
         OperationResult findByCedula(string cedula);
         OperationResult updateEmpleado(Empleado empleado, string cedula);
         OperationResult softDelete(string cedula);
+        OperationResult generarNomina();
     }
 }
