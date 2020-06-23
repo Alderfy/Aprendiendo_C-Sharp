@@ -50,7 +50,7 @@ namespace Nomina_pParcial
                 {
                     cmd.CommandText = "findByCedula";
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@Cedula", $"{cedula}");
+                    cmd.Parameters.AddWithValue("@Cedula", cedula);
                     cmd.Connection = conn;
 
                     DataTable dt = new DataTable();
@@ -88,8 +88,8 @@ namespace Nomina_pParcial
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conn;
                     cmd.Transaction = tran;
-                    cmd.Parameters.AddWithValue("@Cedula", $"{empleado.Cedula}");
-                    cmd.Parameters.AddWithValue("@sueldoBruto", $"{empleado.sueldoBruto}");
+                    cmd.Parameters.AddWithValue("@Cedula", empleado.Cedula);
+                    cmd.Parameters.AddWithValue("@sueldoBruto", empleado.sueldoBruto);
 
                     try
                     {
@@ -122,7 +122,7 @@ namespace Nomina_pParcial
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conn;
                     cmd.Transaction = tran;
-                    cmd.Parameters.AddWithValue("@Cedula", $"{cedula}");
+                    cmd.Parameters.AddWithValue("@Cedula", cedula);
 
                     try
                     {

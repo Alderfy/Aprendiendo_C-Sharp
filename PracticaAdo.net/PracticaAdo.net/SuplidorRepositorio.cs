@@ -82,7 +82,7 @@ namespace Practica_Ado.net
                 {
                     cmd.CommandText = "FindByRNC";
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.AddWithValue("@RNC", $"{rnc}");
+                    cmd.Parameters.AddWithValue("@RNC", rnc);
                     cmd.Connection = conn;
 
                     DataTable dt = new DataTable();
@@ -120,9 +120,9 @@ namespace Practica_Ado.net
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conn;
                     cmd.Transaction = tran;
-                    cmd.Parameters.AddWithValue("@Direccion", $"{suplidor.Direccion}");
-                    cmd.Parameters.AddWithValue("@Representante", $"{suplidor.Representante}");
-                    cmd.Parameters.AddWithValue("@RNC", $"{suplidor.RNC}");
+                    cmd.Parameters.AddWithValue("@Direccion", suplidor.Direccion);
+                    cmd.Parameters.AddWithValue("@Representante", suplidor.Representante);
+                    cmd.Parameters.AddWithValue("@RNC", suplidor.RNC);
 
                     try
                     {
@@ -156,7 +156,7 @@ namespace Practica_Ado.net
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Connection = conn;
                     cmd.Transaction = tran;
-                    cmd.Parameters.AddWithValue("@RNC", $"{rnc}");
+                    cmd.Parameters.AddWithValue("@RNC", rnc);
 
                     try
                     {
