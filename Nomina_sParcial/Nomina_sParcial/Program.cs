@@ -18,6 +18,7 @@ namespace Nomina_sParcial
 
         static iEmpleadoRepositorio EmpleadoRepositorio = new EmpleadoRepositorio();
         static void Main(string[] args)
+
         {
             string opcion;
             do
@@ -116,7 +117,7 @@ namespace Nomina_sParcial
                              Printline("************************Nomina Por Departamento************************");
                              Printline("");
                              
-                             var opcion2 = empleado.OrderBy(x => x.Nombre).GroupBy(x => x.Departamento);
+                             var opcion2 = empleado.OrderBy(x => x.Nombre).GroupBy(x => x.Departamento).OrderBy(x=> x.Key);
                              foreach (var grupo in opcion2)
                              {
                                  Printline("");
@@ -182,8 +183,7 @@ namespace Nomina_sParcial
                              Print("Presione <ENTER> para volver al Menú...");
                              while (Console.ReadKey().Key != ConsoleKey.Enter) { }
                            
-                        }
-                        break;
+                        }break;
 
                     case "4": //Nomina por Escala ISR
                         {
@@ -239,8 +239,7 @@ namespace Nomina_sParcial
                             Printline("");
                             Print("Presione <ENTER> para volver al Menú...");
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { };
-                        }
-                        break;
+                        }break;
 
                     case "5": //TOP 5 Sueldos Brutos
                         {
@@ -263,8 +262,7 @@ namespace Nomina_sParcial
                             
                             Print("Presione <ENTER> para volver al Menú...");
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
-                        }
-                        break;
+                        }break;
 
                     case "6": //Sueldo Promedio
                         {
@@ -280,22 +278,19 @@ namespace Nomina_sParcial
                             Printline("");
                             Print("Presione <ENTER> para volver al Menú...");
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
-                        }
-                        break;
+                        }break;
 
                     case "7": //Salir
                         {
                             Print("\nPase feliz resto del día!!!.\nPresione <ENTER> para Salir...");
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
-                        }
-                        break;
+                        }break;
 
                     default:
                         {
                             Print("\nFavor digitar una de las opciones listadas.\nPresione <ENTER> para volver al Menú...");
                             while (Console.ReadKey().Key != ConsoleKey.Enter) { }
-                        }
-                        break;
+                        }break;
                 }
             } while (opcion != "7");
         }
