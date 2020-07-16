@@ -1,0 +1,7 @@
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\bin\Debug\Nomina_sParcial.exe.config
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\bin\Debug\Nomina_sParcial.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\bin\Debug\Nomina_sParcial.pdb
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\obj\Debug\Nomina_sParcial.csprojAssemblyReference.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\obj\Debug\Nomina_sParcial.csproj.CoreCompileInputs.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\obj\Debug\Nomina_sParcial.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Nomina_sParcial\Nomina_sParcial\obj\Debug\Nomina_sParcial.pdb

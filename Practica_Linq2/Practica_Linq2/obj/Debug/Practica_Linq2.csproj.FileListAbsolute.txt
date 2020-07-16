@@ -1,0 +1,7 @@
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\bin\Debug\Practica_Linq2.exe.config
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\bin\Debug\Practica_Linq2.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\bin\Debug\Practica_Linq2.pdb
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\obj\Debug\Practica_Linq2.csprojAssemblyReference.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\obj\Debug\Practica_Linq2.csproj.CoreCompileInputs.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\obj\Debug\Practica_Linq2.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Practica_Linq2\Practica_Linq2\obj\Debug\Practica_Linq2.pdb
