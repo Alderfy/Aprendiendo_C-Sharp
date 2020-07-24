@@ -16,6 +16,5 @@ namespace Nomina_sParcial
         public double sueldoImponible { get; set; }
         public double totalRetenciones { get; set; }
         public double sueldoNeto{ get; set; }
-
     }
 }

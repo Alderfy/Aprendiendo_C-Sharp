@@ -44,4 +44,5 @@ SELECT
 FROM Empleado
 GO
 
-select * from Empleado
+EXEC Nomina
+SELECT * FROM Empleado
