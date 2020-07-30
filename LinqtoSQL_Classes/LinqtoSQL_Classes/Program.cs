@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using LinqtoSQL_Classes.Views;
+using System;
 using System.Windows.Forms;
 
 namespace LinqtoSQL_Classes
@@ -16,7 +14,7 @@ namespace LinqtoSQL_Classes
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PantallaPrincipal());
         }
     }
 }
