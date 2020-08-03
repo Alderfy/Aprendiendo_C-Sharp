@@ -66,7 +66,7 @@ namespace LinqtoSQL_Classes
 
                 dbcontext.SubmitChanges();
 
-                return new OperationResult() { Result = true, Message = "" };
+                return new OperationResult() { Result = true, Message = "Empleado actualizado correctamente" };
             }
         }
     }

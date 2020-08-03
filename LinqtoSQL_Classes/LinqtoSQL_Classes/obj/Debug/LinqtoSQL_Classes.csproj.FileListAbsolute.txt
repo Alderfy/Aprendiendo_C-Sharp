@@ -4,3 +4,8 @@ C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\
 C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\obj\Debug\LinqtoSQL_Classes.Views.PantallaPrincipal.resources
 C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\obj\Debug\LinqtoSQL_Classes.csproj.GenerateResource.cache
 C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\obj\Debug\LinqtoSQL_Classes.csproj.CoreCompileInputs.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\bin\Debug\LinqtoSQL_Classes.exe.config
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\bin\Debug\LinqtoSQL_Classes.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\bin\Debug\LinqtoSQL_Classes.pdb
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\obj\Debug\LinqtoSQL_Classes.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\LinqtoSQL_Classes\LinqtoSQL_Classes\obj\Debug\LinqtoSQL_Classes.pdb

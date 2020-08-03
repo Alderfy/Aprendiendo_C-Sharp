@@ -21,6 +21,11 @@ namespace LinqtoSQL_Classes.Views
 
         private void FrmCrear_Load(object sender, EventArgs e)
         {
+            Load_grid();
+        }
+
+        private void Load_grid()
+        {
             dgvUsuarios.DataSource = usuarioRepo.getAll();
         }
 
@@ -36,6 +41,9 @@ namespace LinqtoSQL_Classes.Views
             else
             {
                 usuarioRepo.Create(new Usuario { Nombre = nombre, Apellido = apellido });
+
+                MessageBox.Show("Empleado creado");
+                Load_grid();
             }
         }
     }
