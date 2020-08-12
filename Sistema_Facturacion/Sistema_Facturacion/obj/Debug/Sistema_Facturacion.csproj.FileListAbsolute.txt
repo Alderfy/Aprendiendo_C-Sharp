@@ -1,0 +1,14 @@
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\Sistema_Facturacion.exe.config
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\Sistema_Facturacion.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\Sistema_Facturacion.pdb
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\EntityFramework.dll
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\EntityFramework.SqlServer.dll
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\EntityFramework.xml
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\bin\Debug\EntityFramework.SqlServer.xml
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.csprojAssemblyReference.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.Properties.Resources.resources
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.csproj.GenerateResource.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.csproj.CoreCompileInputs.cache
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.csproj.CopyComplete
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.exe
+C:\VisualProject_GitHub\Aprendiendo_C-Sharp\Sistema_Facturacion\Sistema_Facturacion\obj\Debug\Sistema_Facturacion.pdb
